@@ -3,13 +3,16 @@
 
 
 using System;
+using System.Text;
+
 
 class Triangle
 {
     static void Main()
     {
         Console.Title = "Copyright Triangle";
-        char copy = '\u00a9';
+        char copy = '\u00A9';
+        Console.OutputEncoding = Encoding.UTF8;               
         Console.WriteLine("  {0}", copy);
         Console.WriteLine(" {0}{0}{0}", copy);
         Console.WriteLine("{0}{0}{0}{0}{0}", copy);

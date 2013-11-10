@@ -6,17 +6,19 @@ using System;
 
 class GenderCheck
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.Title = "Bool Gender Check";
-        bool isFemale = false;
-        if (isFemale == true)
+        bool isFemale;
+        Console.WriteLine("What is you gender (male/female):");
+        string myGender = Console.ReadLine();
+        if (myGender == "female")
         {
-            Console.WriteLine("Your gender is female.");
+            isFemale = true;
         }
-        else
+        else 
         {
-            Console.WriteLine("Your gender is male.");
+            isFemale = false;
         }
+        Console.WriteLine("Are you female:" + isFemale);
     }
 }

@@ -10,7 +10,7 @@ class UnicodeCharacter
     static void Main()
     {
         Console.Title = "Unicode character";
-        char u72 = '\u0048';
+        char u72 = '\u0048';        // char u72 = (char)0x48; - oder method
         Console.WriteLine("The symbol that has unicode 72 is: {0}", u72);
         char symbol = 'H';
         Console.WriteLine("The unicode of {0} is: {1}", symbol, (int)symbol);

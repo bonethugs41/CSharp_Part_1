@@ -7,20 +7,20 @@ class TrueFalse
 {
     static void Main()
     {
-        Console.Title = "Compare Numbers";
-        Console.Write("Input first number:");
+        Console.Title = "compare numbers";
+        Console.Write("input first number:");
         float n1 = float.Parse(Console.ReadLine());
-        Console.Write("Input second number:");
+        Console.Write("input second number:");
         float n2 = float.Parse(Console.ReadLine());
         bool compare = (n1 == n2);
+        Console.WriteLine("Result:");
         if (n1 == n2)
         {
-            Console.WriteLine("The numbers are equal");
+            Console.WriteLine("the numbers are equal");
         }
         else
         {
-            Console.WriteLine("The numbers are not equal");
+            Console.WriteLine("the numbers are not equal");
         }
-
     }
 }

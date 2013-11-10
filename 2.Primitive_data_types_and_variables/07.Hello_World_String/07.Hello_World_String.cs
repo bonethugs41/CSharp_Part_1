@@ -12,10 +12,7 @@ class Strings
     {
         string firstword = "Hello";
         string secondword = "World";
-        Console.WriteLine("This is object:");
         object hwobject = string.Concat(firstword, " ", secondword, "!");
-        Console.WriteLine(hwobject);
-        Console.WriteLine();
         Console.WriteLine("This is string:");
         string hwstring = hwobject.ToString();
         Console.WriteLine(hwstring);
