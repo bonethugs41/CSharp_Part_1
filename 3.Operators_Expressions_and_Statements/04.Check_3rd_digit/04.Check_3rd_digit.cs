@@ -4,7 +4,7 @@
 
 using System;
 
-class Program
+class CheckDigit
 {
     static void Main(string[] args)
     {
