@@ -1,6 +1,6 @@
-﻿//Write an expression that checks if given point (x,  y) is within a circle K(O, 5).
+﻿//Write an expression that checks if given point (x,  y) is within a circle K(O, 5)*.
 
-
+//*I guess this means the circle has center coordinate (0,0) and radius 5.
 
 using System;
 
@@ -11,7 +11,7 @@ class DotInCircle
     {
         Console.Title = "Is the given dot inside a circle K(0,5)";
         Console.Write("X coordinate of dot: ");
-        double inputX = double.Parse(Console.ReadLine()); //Not suer if float or double?
+        double inputX = double.Parse(Console.ReadLine());                   //Not sure if float or double?
         Console.Write("Y coordinate of dot: ");
         double inputY = double.Parse(Console.ReadLine());
         double dist = Math.Sqrt((inputX * inputX) + (inputY * inputY));
