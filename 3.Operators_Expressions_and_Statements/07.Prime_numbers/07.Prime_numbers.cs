@@ -8,6 +8,8 @@ using System;
 class PrimeNumbers
 {
     static void Main()
+
+        // Check Sieve of Eratosthenes in Wikipedia.
     {
         Console.Title = "Prime or not?";
         Console.WriteLine("Input some number between 0 and 100:");
@@ -31,7 +33,3 @@ class PrimeNumbers
         }
     }
 }
-
-
-
-// Check Sieve of Eratosthenes in Wikipedia.
