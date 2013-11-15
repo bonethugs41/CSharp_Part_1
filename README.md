@@ -13,4 +13,3 @@ Course Program
 * Conditional Statements
 * Loops
 
-The solutions to the tasks are almost the way they were the day I submitted them, with the exception of some formatting fixes.
