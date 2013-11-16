@@ -10,7 +10,7 @@ class CircleParameters
     {
         Console.Title = "Perimeter and area of a circle";
         Console.WriteLine("Please input the radius of the circle:");
-        double radius = double.Parse(Console.ReadLine());
+        double radius = double.Parse(Console.ReadLine()); 
         double perimeter = 2 * radius * 3.14;
         double area = 3.14 * radius * radius;
         Console.WriteLine("The perimeter of the circle is: {0}", perimeter);
