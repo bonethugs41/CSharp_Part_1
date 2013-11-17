@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D2D135FC-BABD-4794-98D5-3C940054AEDB}</ProjectGuid>
+    <ProjectGuid>{0A9090F4-CE3F-43BB-BAA5-D1EC553A9984}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.Circle_perimeter_and_area</RootNamespace>
-    <AssemblyName>02.Circle_perimeter_and_area</AssemblyName>
+    <RootNamespace>_06.Quadratic_Equation</RootNamespace>
+    <AssemblyName>06.Quadratic_Equation</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02.Circle_perimeter_and_area.cs" />
+    <Compile Include="06.Quadratic_Equation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
