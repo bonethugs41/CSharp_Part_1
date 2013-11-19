@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CED7B523-EF1C-42AE-B157-0D68F43AA863}</ProjectGuid>
+    <ProjectGuid>{AD841D23-5177-4B23-9F0C-69856951DC62}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_04.Sort_numbers</RootNamespace>
-    <AssemblyName>04.Sort_numbers</AssemblyName>
+    <RootNamespace>_05.Print_the_name_of_the_input_digit</RootNamespace>
+    <AssemblyName>05.Print_the_name_of_the_input_digit</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sort_numbers.cs" />
+    <Compile Include="Print_the_name_of_the_input_digit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
