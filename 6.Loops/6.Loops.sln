@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Divisible_numbers", "02.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Min_max", "03.Min_max\03.Min_max.csproj", "{54DE386F-C6C9-4F00-88F8-9D887862B6B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Factorial_division", "04.Factorial_division\04.Factorial_division.csproj", "{7D483777-A7F4-4252-951D-FA2AAC724CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Another_factorial", "05.Another_factorial\05.Another_factorial.csproj", "{BF509E67-439F-4981-A1EF-EB37FBC64A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{54DE386F-C6C9-4F00-88F8-9D887862B6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54DE386F-C6C9-4F00-88F8-9D887862B6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54DE386F-C6C9-4F00-88F8-9D887862B6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D483777-A7F4-4252-951D-FA2AAC724CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D483777-A7F4-4252-951D-FA2AAC724CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D483777-A7F4-4252-951D-FA2AAC724CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D483777-A7F4-4252-951D-FA2AAC724CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF509E67-439F-4981-A1EF-EB37FBC64A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF509E67-439F-4981-A1EF-EB37FBC64A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF509E67-439F-4981-A1EF-EB37FBC64A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF509E67-439F-4981-A1EF-EB37FBC64A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
