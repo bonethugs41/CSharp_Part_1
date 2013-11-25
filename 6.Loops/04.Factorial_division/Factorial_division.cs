@@ -3,6 +3,8 @@
 
 
 using System;
+using System.Numerics;
+
 
 class FactorialDivision
 {
@@ -44,11 +46,24 @@ class FactorialDivision
             Console.WriteLine("Wrong input! Тhe condition is not satisfied.");
             return;
         }
-        int result = 1;
-        for (int i = 0; i < (n - k); i++)
+
+        //n!
+        BigInteger factorialN = 1;
+        while (n != 1)
         {
-            result = result * (n - i);
+            factorialN *= n;
+            n--;
         }
+
+        //k!
+        BigInteger factorialK = 1;
+        while (k != 1)
+        {
+            factorialK *= k;
+            k--;
+        }
+        BigInteger result = factorialN / factorialK;
+
         Console.WriteLine("Result: \n{0}", result);
     }
 }

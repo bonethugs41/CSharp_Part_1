@@ -2,22 +2,28 @@
 
 
 using System;
+using System.Numerics;
 
 class Factorial
 {
     static void Main()
     {
+
+        //For the safty of your computer DO NOT enter too big numbers :D
+
         Console.Title = "Factorial formula";
-        decimal n;
-        decimal k;
+        BigInteger n;
+        BigInteger k;
+
+        //check
         while (true)
         {
             Console.Write("Input N:");
             string check = Console.ReadLine();
-            bool nCheck = decimal.TryParse(check, out n);
+            bool nCheck = BigInteger.TryParse(check, out n);
             Console.Write("Input K:");
             check = Console.ReadLine();
-            bool kCheck = decimal.TryParse(check, out k);
+            bool kCheck = BigInteger.TryParse(check, out k);
             if ((nCheck == true) && (kCheck == true))
             {
                 break;
@@ -33,19 +39,32 @@ class Factorial
             return;
         }
 
-        // N!*K! / (K-N)! = N! * (K - (K - N))
-        decimal nFact = 1;
-        for (decimal i = 1; i <= n; i++)
+        //!(K-N)
+        BigInteger kMinusN = k - n;
+        BigInteger factorialKMinusN = 1;
+        while (kMinusN != 1)
         {
-            nFact = nFact * i;
+            factorialKMinusN *= kMinusN;
+            kMinusN--;
         }
 
-        decimal resultRight = 1;
-        for (decimal i = 0; i < (k - (k - n)); i++)
+        //!N
+        BigInteger factorialN = 1;
+        while (n != 1)
         {
-            resultRight = resultRight * (k - i);
+            factorialN *= n;
+            n--;
         }
 
-        Console.WriteLine(nFact * resultRight);
+        //!K
+        BigInteger factorialK = 1;
+        while (k != 1)
+        {
+            factorialK *= k;
+            k--;
+        }
+
+        BigInteger result = (factorialK * factorialN) / factorialKMinusN;
+        Console.WriteLine("Result is: \n{0}", factorialKMinusN);
     }
 }
