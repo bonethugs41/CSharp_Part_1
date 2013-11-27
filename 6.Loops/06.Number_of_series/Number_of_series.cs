@@ -34,5 +34,8 @@ class NumberSeries
         }
         Console.WriteLine("-----------");
         Console.WriteLine("Total Sum: {0}", totalResult + 1);
+
+
+
     }
 }
