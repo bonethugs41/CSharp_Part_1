@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Tribonacci", "01.Tribona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Carpets", "02.Carpets\02.Carpets.csproj", "{A50EE95F-EFD3-45E2-9C93-A9B1D4A61BF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Tripple_rotation_of_digits", "03.Tripple_rotation_of_digits\03.Tripple_rotation_of_digits.csproj", "{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A50EE95F-EFD3-45E2-9C93-A9B1D4A61BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A50EE95F-EFD3-45E2-9C93-A9B1D4A61BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A50EE95F-EFD3-45E2-9C93-A9B1D4A61BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
