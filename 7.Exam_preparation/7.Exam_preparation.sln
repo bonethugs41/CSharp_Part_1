@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Carpets", "02.Carpets\02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Tripple_rotation_of_digits", "03.Tripple_rotation_of_digits\03.Tripple_rotation_of_digits.csproj", "{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Telerik_logo_matrix", "04.Telerik_logo_matrix\04.Telerik_logo_matrix.csproj", "{0673D5D4-50A6-4D28-B0C9-89B4A8698FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Cartesian_coordinate_system", "05.Cartesian_coordinate_system\05.Cartesian_coordinate_system.csproj", "{B0935A1E-EEA9-449D-B6DB-3A31E5D1DC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Miss_Cat_2011", "06.Miss_Cat_2011\06.Miss_Cat_2011.csproj", "{4EB09B5B-4529-4DA2-ADB1-20757BF0EFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Forest_road", "07.Forest_road\07.Forest_road.csproj", "{685E6122-82FE-4A14-A023-1D49C39C93F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Binary_Digits_Count", "08.Binary_Digits_Count\08.Binary_Digits_Count.csproj", "{7BBF10EE-1C39-4D17-B4C5-F7663215FC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Subset_sum", "09.Subset_sum\09.Subset_sum.csproj", "{E126AA5E-9CC2-4F29-8821-91EFD7F05554}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +39,30 @@ Global
 		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A07B7F45-8A57-4C86-AD6B-E6913CBC47A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0673D5D4-50A6-4D28-B0C9-89B4A8698FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0673D5D4-50A6-4D28-B0C9-89B4A8698FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0673D5D4-50A6-4D28-B0C9-89B4A8698FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0673D5D4-50A6-4D28-B0C9-89B4A8698FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0935A1E-EEA9-449D-B6DB-3A31E5D1DC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0935A1E-EEA9-449D-B6DB-3A31E5D1DC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0935A1E-EEA9-449D-B6DB-3A31E5D1DC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0935A1E-EEA9-449D-B6DB-3A31E5D1DC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB09B5B-4529-4DA2-ADB1-20757BF0EFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB09B5B-4529-4DA2-ADB1-20757BF0EFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB09B5B-4529-4DA2-ADB1-20757BF0EFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB09B5B-4529-4DA2-ADB1-20757BF0EFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685E6122-82FE-4A14-A023-1D49C39C93F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685E6122-82FE-4A14-A023-1D49C39C93F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685E6122-82FE-4A14-A023-1D49C39C93F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685E6122-82FE-4A14-A023-1D49C39C93F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBF10EE-1C39-4D17-B4C5-F7663215FC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBF10EE-1C39-4D17-B4C5-F7663215FC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBF10EE-1C39-4D17-B4C5-F7663215FC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBF10EE-1C39-4D17-B4C5-F7663215FC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
