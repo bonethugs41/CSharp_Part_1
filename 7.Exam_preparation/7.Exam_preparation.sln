@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Binary_Digits_Count", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Subset_sum", "09.Subset_sum\09.Subset_sum.csproj", "{E126AA5E-9CC2-4F29-8821-91EFD7F05554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Fir_tree", "10.Fir_tree\10.Fir_tree.csproj", "{F687DCA2-A5CC-459F-B073-C84490631BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.We_all_love_bits", "11.We_all_love_bits\11.We_all_love_bits.csproj", "{24A2C513-7EC6-4405-9C55-AE8681847B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E126AA5E-9CC2-4F29-8821-91EFD7F05554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F687DCA2-A5CC-459F-B073-C84490631BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F687DCA2-A5CC-459F-B073-C84490631BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F687DCA2-A5CC-459F-B073-C84490631BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F687DCA2-A5CC-459F-B073-C84490631BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A2C513-7EC6-4405-9C55-AE8681847B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A2C513-7EC6-4405-9C55-AE8681847B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A2C513-7EC6-4405-9C55-AE8681847B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A2C513-7EC6-4405-9C55-AE8681847B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
